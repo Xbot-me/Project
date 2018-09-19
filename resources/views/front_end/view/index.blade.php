@@ -12,10 +12,10 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="SHtaken-slider-content">
-                     <h1> <span>Education</span> & Training Organization.</h1>
-                     <p>we proviet best education system for you  amet mauris lobortis mauris inceptos eget. Urna imperdiet.</p>
+                     <h1> Teach the world online </h1>
+                     <p>Share your knowledge and reach millions of students across the globe.</p>
                      <div class="SHtaken-slider-btn">
-                        <a class="SHtaken-btn btn btn-primary" href="#">Our Course</a>
+                     <a class="SHtaken-btn btn btn-primary" href="{{"/courses"}}">Our Course</a>
                         <a class="SHtaken-btn2 btn btn-primary" href="{{"/contact"}}">Contact Us</a>
                      </div>
                   </div>
@@ -38,7 +38,7 @@
                   <div class="SHtaken-section-title text-center">
                      <h2>Our Popular Courses</h2>
                      <div class="section-border"></div>
-                     <p>Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta</p>
+                     <p></p>
                   </div>
                </div>
             </div>
@@ -48,12 +48,12 @@
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="2s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course.jpg);">
                            <div class="popular-course-teacher popular-color1">
-                              <a href="course-grid.html">Jhon Doe</a>
+                              <a href="{{"/course_info"}}">Jhon Doe</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
                            </div>
                         </div>
                         <div class="popular-course-content ">
-                           <a href="course-grid.html">
+                           <a href="{{"/course_info"}}">
                               <h5>Business Development</h5>
                            </a>
                            <div class="SHtaken-rating-area">
@@ -87,12 +87,12 @@
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="3s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course2.jpg);">
                            <div class="popular-course-teacher popular-color2">
-                              <a href="course-grid.html">jon rock</a>
+                              <a href="{{"/course_info"}}">jon rock</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
                            </div>
                         </div>
                         <div class="popular-course-content ">
-                           <a href="course-grid.html">
+                           <a href="{{"/course_info"}}">
                               <h5>Digital Marketing Strategy </h5>
                            </a>
                            <div class="SHtaken-rating-area">
@@ -126,12 +126,12 @@
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="1s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course3.jpg);">
                            <div class="popular-course-teacher popular-color3">
-                              <a href="course-grid.html">jon rock</a>
+                              <a href="{{"/course_info"}}">jon rock</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
                            </div>
                         </div>
                         <div class="popular-course-content ">
-                           <a href="course-grid.html">
+                           <a href="{{"/course_info"}}">
                               <h5>Website Development</h5>
                            </a>
                            <div class="SHtaken-rating-area">
@@ -168,7 +168,7 @@
                   <div class="SHtaken-section-title">
                      <h2>Why Choose Us</h2>
                      <div class="section-border left-border"></div>
-                     <p>Auctor eleifend egestas felis a suscipit, amet ultricies orci. Eget nonummy ultrices magna ornare tellus molestie.</p>
+                     <p>We've changed lives by connecting instructors with students around the world.</p>
                   </div>
                   <div class="SHtaken-video-details wow fadeIn"  data-wow-duration="1s">
                      <div class="SHtaken-video-logo"><img src="images/video-logo.png" alt="video logo" /></div>
@@ -194,7 +194,8 @@
                </div>
                <div class="col-md-6 col-lg-7">
                   <div class="SHtaken-video-thumb section-overlay" style="background-image:url(images/video-bg.jpg);">
-                     <a class="SHtaken-video-play" href="#">
+                    
+                     <a class="SHtaken-video-play" href="" data-toggle="modal" data-target="#myModal">
                         <i class="fa fa-play" aria-hidden="true"></i> 
                         <div class="iq-waves">
                            <div class="waves wave-1"></div>
@@ -202,6 +203,7 @@
                            <div class="waves wave-3"></div>
                         </div>
                      </a>
+                    
                   </div>
                </div>
             </div>
@@ -220,8 +222,11 @@
       <!-- Start SHtaken Counter-->
       <section class="SHtaken-counter section-spacing section-overlay">
          <div class="container">
+             
             <div class="row">
+                    
                <div class="col-sm-6 col-md-3 col-lg-3">
+                   
                   <div class="SHtaken-counter-wrapper wow zoomIn"  data-wow-duration="2s">
                      <h3>3265</h3>
                      <p>Passed Graduates</p>
@@ -249,97 +254,6 @@
          </div>
       </section>
       <!-- End SHtaken Counter -->    
-
-
-
-
-
-
-
-      <!-- Start SHtaken  Feature-->
-      <!-- <section class="SHtaken-events section-spacing bg-color">
-         <div class="container">
-            <div class="SHtaken-section-title">
-               <h2>Upcoming Event</h2>
-               <div class="section-border left-border"></div>
-            </div>
-            <div class="upcoming-event-container">
-               <div class="upcoming-event-wrapper">
-                  <div class="row">
-                     <div class="col-md-8 col-sm-7">
-                        <div class="upcoming-event-details wow fadeIn"  data-wow-duration="1s">
-                           <div class="upcoming-event-logo">
-                              <h2>02</h2>
-                              <h5>march</h5>
-                           </div>
-                           <div class="upcoming-event-content">
-                              <h4>Call for applications for the 2018 Letten Prize</h4>
-                              <ul class="upcoming-event-meta list-inline">
-                                 <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 am - 5:00 pm</li>
-                                 <li class="list-inline-item"><i class="fa fa-map-marker" aria-hidden="true"></i>London city,wclb uk</li>
-                              </ul>
-                              <a class="upcoming-event-btn" href="#">register</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-sm-5">
-                        <div class="upcoming-event-thumb"><img src="images/upcoming-event.jpg" alt="upcoming event img" /></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="upcoming-event-wrapper">
-                  <div class="row">
-                     <div class="col-md-8 col-sm-7">
-                        <div class="upcoming-event-details wow fadeIn"  data-wow-duration="2s">
-                           <div class="upcoming-event-logo">
-                              <h2>17</h2>
-                              <h5>May</h5>
-                           </div>
-                           <div class="upcoming-event-content">
-                              <h4>TWAS-COMSTECH Joint Research Grants-2018</h4>
-                              <ul class="upcoming-event-meta list-inline">
-                                 <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 am - 5:00 pm</li>
-                                 <li class="list-inline-item"><i class="fa fa-map-marker" aria-hidden="true"></i>London city,wclb uk</li>
-                              </ul>
-                              <a class="upcoming-event-btn" href="#">register</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-sm-5">
-                        <div class="upcoming-event-thumb"><img src="images/upcoming-event2.jpg" alt="upcoming event img" /></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="upcoming-event-wrapper border-0">
-                  <div class="row">
-                     <div class="col-md-8 col-sm-7">
-                        <div class="upcoming-event-details wow fadeIn"  data-wow-duration="3s">
-                           <div class="upcoming-event-logo">
-                              <h2>22</h2>
-                              <h5>June</h5>
-                           </div>
-                           <div class="upcoming-event-content">
-                              <h4>Call for Nominations 2018 TUBA Academy Prizes</h4>
-                              <ul class="upcoming-event-meta list-inline">
-                                 <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 am - 5:00 pm</li>
-                                 <li class="list-inline-item"><i class="fa fa-map-marker" aria-hidden="true"></i>london city,wclb uk</li>
-                              </ul>
-                              <a class="upcoming-event-btn" href="#">register</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-sm-5">
-                        <div class="upcoming-event-thumb"><img src="images/upcoming-event3.jpg" alt="upcoming event img" /></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-      <!-- End SHtaken Feature -->   
-
-
-
 
 
 
@@ -380,43 +294,6 @@
 
 
 
-
-
-
-      <!-- Start SHtaken Pannel -->
-      <section class="SHtaken-pannel clearfix">
-         <div class="SHtaken-pannel-main">
-            <div class="pannel-column pannel-one">
-               <div class="pannel-wrapper">
-                  <div class="pannel-logo tmx-box-icon"><i class="fa fa-book"></i></div>
-                  <h2>Course Integrated</h2>
-                  <p>Contacr Dewaty Feaert</p>
-               </div>
-            </div>
-            <div class="pannel-column pannel-two">
-               <div class="pannel-wrapper">
-                  <div class="pannel-logo tmx-box-icon"><i class="fa fa-file-video-o"></i></div>
-                  <h2>Video Supported</h2>
-                  <p>Contacr Dewaty Feaert</p>
-               </div>
-            </div>
-            <div class="pannel-column pannel-three ">
-               <div class="pannel-wrapper">
-                  <div class="pannel-logo tmx-box-icon"><i class="fa fa-tachometer"></i></div>
-                  <h2>Clean Layout</h2>
-                  <p>Contacr Dewaty Feaert</p>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End SHtaken -->   
-
-
-
-
-
-
-
       <!-- Start SHtaken Testimonial-->
       <section class="SHtaken-testimonial section-spacing bg-color clearfix">
          <div class="container">
@@ -425,19 +302,19 @@
                   <div class="SHtaken-section-title text-center">
                      <h2>Our Instructor</h2>
                      <div class="section-border"></div>
-                     <p>Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus  Est ac sollicitudin varius integer laoreet morbi  porta  </p>
+                     <p></p>
                   </div>
                </div>
             </div>
             <div class="testimonial-instructor-carousel owl-carousel">
                <div class="testimonial-instructor wow fadeIn"  data-wow-duration="2s">
                   <div class="testimonial-info">
-                     <div class="testimonial-info-thumb"><img src="images/testimonial-author.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-thumb"><img src="images/akter.jpg" alt="testimonial author img" /></div>
                      <div class="testimonial-info-content">
                         <a href="author.html">
-                           <h5>L. Bohan</h5>
+                           <h5>Dr. Syed Akhter Hossain</h5>
                         </a>
-                        <p>Teacher</p>
+                        <p>Department Head </p>
                      </div>
                   </div>
                   <div class="testimonial-hover">
@@ -448,20 +325,20 @@
                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                         <a href="author.html">
-                           <h5>Michael E.</h5>
+                           <h5>Dr. Syed Akhter Hossain</h5>
                         </a>
-                        <p>Physics Teacher</p>
+                        <p>Department of Computer Science and Engineering</p>
                      </div>
                   </div>
                </div>
                <div class="testimonial-instructor wow fadeIn"  data-wow-duration="3s">
                   <div class="testimonial-info">
-                     <div class="testimonial-info-thumb"><img src="images/testimonial-author2.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-thumb"><img src="images/teacher1.png" alt="testimonial author img" /></div>
                      <div class="testimonial-info-content">
                         <a href="author.html">
-                           <h5>J. Renz</h5>
+                           <h5>Dr. Neil Perez Balba</h5>
                         </a>
-                        <p>Ext. Instructor</p>
+                        <p>Visiting Professor</p>
                      </div>
                   </div>
                   <div class="testimonial-hover">
@@ -472,20 +349,21 @@
                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                         <a href="author.html">
-                           <h5>Natalie Wang</h5>
+                           <h5>Dr. Neil Perez Balba</h5>
                         </a>
-                        <p>Instructor</p>
+                        <p>
+                          Department of Computer Science and Engineering</p>
                      </div>
                   </div>
                </div>
                <div class="testimonial-instructor wow fadeIn"  data-wow-duration="2s">
                   <div class="testimonial-info">
-                     <div class="testimonial-info-thumb"><img src="images/testimonial-author3.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-thumb"><img src="images/teacher3.jpg" alt="testimonial author img" /></div>
                      <div class="testimonial-info-content">
                         <a href="author.html">
-                           <h5>Alannah Varley</h5>
+                           <h5>Mr. Arif Mahmud</h5>
                         </a>
-                        <p>Instructor</p>
+                        <p>Assistant Professor</p>
                      </div>
                   </div>
                   <div class="testimonial-hover">
@@ -496,20 +374,21 @@
                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                         <a href="author.html">
-                           <h5>Maya Joske</h5>
+                           <h5>Mr. Arif Mahmud</h5>
                         </a>
-                        <p>Department Head</p>
+                        <p>Department of Computer Science and Engineering</p>
                      </div>
                   </div>
                </div>
                <div class="testimonial-instructor wow fadeIn"  data-wow-duration="2s">
                   <div class="testimonial-info">
-                     <div class="testimonial-info-thumb"><img src="images/testimonial-author4.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-thumb"><img src="images/teacher2.jpg" alt="testimonial author img" /></div>
                      <div class="testimonial-info-content">
                         <a href="author.html">
-                           <h5>Roboto Max</h5>
+                           <h5>Ms. Subhenur Latif</h5>
                         </a>
-                        <p>Jr. Instructor</p>
+                        <p>
+                          Assistant Professor</p>
                      </div>
                   </div>
                   <div class="testimonial-hover">
@@ -520,13 +399,13 @@
                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                         <a href="author.html">
-                           <h5>Sr. Instructor</h5>
+                           <h5>Ms. Subhenur Latif</h5>
                         </a>
-                        <p>Banking Departmental Head</p>
+                        <p>Department of Computer Science and Engineering</p>
                      </div>
                   </div>
                </div>
-               <div class="testimonial-instructor wow fadeIn"  data-wow-duration="3s">
+               {{-- <div class="testimonial-instructor wow fadeIn"  data-wow-duration="3s">
                   <div class="testimonial-info">
                      <div class="testimonial-info-thumb"><img src="images/testimonial-author5.jpg" alt="testimonial author img" /></div>
                      <div class="testimonial-info-content">
@@ -549,7 +428,7 @@
                         <p>Instructor</p>
                      </div>
                   </div>
-               </div>
+               </div> --}}
             </div>
          </div>
       </section>
@@ -580,18 +459,18 @@
                <div class="about-author-info">
                   <div class="about-author-thumb"><img src="images/about-author.png" alt="testimonial author img" /></div>
                   <div class="about-author-content">
-                     <a href="author.html">Roboto Max</a>
+                     <a href="author.html">Oscar Javier</a>
                      <span>Company of Nation</span>
-                     <p>Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s</p>
+                     <p>I had a couple of months of experience trading without consistent results. After taking this course I'm pretty confident that I'll be a better trader and know better when to enter a trade, how to put my stop loss and take profit, how many lots to trade and much more.</p>
                      <img src="images/about-author-sign.png" alt="about-author img" />
                   </div>
                </div>
                <div class="about-author-info">
                   <div class="about-author-thumb"><img src="images/about-author2.png" alt="testimonial author img" /></div>
                   <div class="about-author-content">
-                     <a href="author.html">Roboto Max</a>
+                     <a href="author.html">Estelle</a>
                      <span>Company of Nation</span>
-                     <p>Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s</p>
+                     <p>My first complete Photoshop for Designing t-shirts course done! I am not a designer at all, but after taking this course I really felt like a professional with enough confidence to now go out and design for the real world. Learned SO much! thank you!</p>
                      <img src="images/about-author-sign2.png" alt="about-author img" />
                   </div>
                </div>
@@ -711,6 +590,35 @@
          </div>
       </section> -->
       <!-- End SHtaken Subscribe -->    
+
+
+      
+        
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                    <button type="button" class="close ml-auto " style="margin-top:-25px" data-dismiss="modal">&times;</button>
+              
+               
+            
+                
+                <!-- Modal body -->
+                <div class="modal-body embed-responsive embed-responsive-16by9" >
+
+                        <video width="100vw" controls autoplay>
+                                <source src="videos/Home_work.mp4" type="video/mp4">
+                                
+                              </video>
+                  
+                </div>
+                
+           
+               
+                
+              </div>
+            </div>
+          </div>
       
       
 

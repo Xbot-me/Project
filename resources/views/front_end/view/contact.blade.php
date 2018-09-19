@@ -6,13 +6,13 @@
             <div class="row">
                 <div class="col">
                     <div class="SHtaken-wells-container">
-                        <h2>Contact</h2>
-                        <nav>
+                        <h2>Contact Us</h2>
+                        {{-- <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb-item active">Contact</li>
                             </ol>
-                        </nav>
+                        </nav> --}}
                     </div>
                 </div>
             </div>

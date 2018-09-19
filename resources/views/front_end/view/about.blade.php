@@ -6,13 +6,14 @@
             <div class="row">
                <div class="col">
                   <div class="SHtaken-wells-container">
-                     <h2>About Us</h2>
-                     <nav>
+                     <h2>we’re improving lives through learning.</h2>
+                     <p style="color:#fff">Join millions of students and instructors in the world’s largest online learning marketplace</p>
+                     {{-- <nav>
                         <ol class="breadcrumb">
                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                            <li class="breadcrumb-item active">About</li>
                         </ol>
-                     </nav>
+                     </nav> --}}
                   </div>
                </div>
             </div>
@@ -58,7 +59,7 @@
                   <div class="SHtaken-section-title">
                      <h2>Why Choose Us</h2>
                      <div class="section-border left-border"></div>
-                     <p>Auctor eleifend egestas felis a suscipit, amet ultricies orci. Eget nonummy ultrices magna ornare tellus molestie.</p>
+                     <p>We've changed lives by connecting instructors with students around the world.</p>
                   </div>
                   <div class="SHtaken-video-details wow fadeIn"  data-wow-duration="1s">
                      <div class="SHtaken-video-logo"><img src="images/video-logo.png" alt="video logo" /></div>
@@ -267,7 +268,7 @@
                   <div class="SHtaken-section-title SHtaken-title-inverse text-center">
                      <h2>Our Instructor</h2>
                      <div class="section-border"></div>
-                     <p>Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac sagittis ridiculus  Est ac sollicitudin varius integer laoreet morbi  porta  </p>
+                     <p>Our Instructor Support Team is here for you 24/7 to help you through your course creation needs. Use our Teach Hub, a resource center to help you through the process. Join Studio U and get peer-to-peer support from our engaged instructor community. This Facebook group is always on, always there, and always helpful.</p>
                   </div>
                </div>
             </div>

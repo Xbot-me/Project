@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('front_end.layouts.master')
 
 @section('content')
 <div class="container">
@@ -13,8 +13,21 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    
+                   @if(Auth::user()->role == 'teacher' ) 
+                    
+                        
 
-                    You are logged in!
+
+
+                    @elseif(Auth::user()->role == 'student')
+                    
+                    
+
+
+
+
+                    @endif
                 </div>
             </div>
         </div>

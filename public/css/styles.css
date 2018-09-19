@@ -3033,3 +3033,7 @@ ul.SHtaken-footer-category.list-inline li {
 .SHtaken-footer-intro a{
 	color:#EF5F5F;
 }
+a:hover {
+
+	color: #fffaf9;
+}

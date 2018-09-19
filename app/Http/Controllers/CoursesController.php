@@ -7,25 +7,29 @@ use Illuminate\Http\Request;
 class CoursesController extends Controller
 {
     
-    public function index()
-    {
-        
-        return view('front_end.view.index');
-    }
+    
 
-    public function about()
-    {
-        return view('front_end.view.about');
-    }
+    
 
     public function courses()
     {
+
+
         return view('front_end.view.courses');
     }
 
-    public function contact()
+    
+    public function info()
     {
-        return view('front_end.view.contact');
+
+
+        return view('front_end.view.course_info');
+    }
+    public function instructor()
+    {
+
+
+        return view('front_end.view.instructors');
     }
 
 

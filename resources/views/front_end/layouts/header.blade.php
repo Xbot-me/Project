@@ -6,14 +6,38 @@
                      <p class="top-content"><a href="mailto:support@SHtaken.com">support@SHtaken.com</a></p>
                   </div>
                   <div class="SHtaken-top-bar-right">
-                    <a class="top-sign-btn" href="contact.html" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user"></i>Sign In</a>
-                    <a class="top-sign-btn" href="contact.html" data-toggle="modal" data-target="#signup-modal"><i class="fa fa-user"></i>Sign Up</a>
+
+                      @guest
+                      <a class="top-sign-btn" href="/login" ><i class="fa fa-user"></i>Sign In</a>
+                      <a class="top-sign-btn" href="/register" ><i class="fa fa-user"></i>Sign Up</a>
+                  @else
+                      <li class="nav-item dropdown" style="list-style: none;">
+                          <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                              {{ Auth::user()->name }} <span class="caret"></span>
+                          </a>
+
+                          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="/profile">Profile</a>
+                              <hr>
+                              <a class="dropdown-item" href="{{ route('logout') }}"
+                                 onclick="event.preventDefault();
+                                               document.getElementById('logout-form').submit();">
+                                  {{ __('Logout') }}
+                              </a>
+
+                              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                  @csrf
+                              </form>
+                          </div>
+                      </li>
+                  @endguest
+                    
                   </div>
                </div>
             </div>
          </div>
          <!-- Modal -->
-         <div class="top-login-modal modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="tmx-loginform" aria-hidden="true">
+         {{-- <div class="top-login-modal modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="tmx-loginform" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                <div class="modal-content">
                   <div class="modal-header">
@@ -67,12 +91,12 @@
                   </div>
                   <div class="modal-body">
                      <div class="login-form-modal">
-                         <form action="#" method="get">
+                         <form action="{{ route('register') }}" method="POST">
                         <div class="row">
                            <div class="col-md-12">
                               <div class="form-row">
                                  <div class="form-group col-md-12">
-                                    <input type="text" class="form-control" placeholder="First Name" required>
+                                    <input type="text" class="form-control" placeholder="First Name" name="name" equired>
                                  </div>
                               </div>
                            </div>
@@ -86,7 +110,7 @@
                            <div class="col-md-12">
                               <div class="form-row">
                                  <div class="form-group col-md-12">
-                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                    <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                                  </div>
                               </div>
                            </div>
@@ -100,14 +124,14 @@
                            <div class="col-md-12">
                               <div class="form-row">
                                  <div class="form-group col-md-12">
-                                    <input type="password" class="form-control" placeholder="Pasword" required>
+                                    <input type="password" class="form-control" name="password" placeholder="Pasword" required>
                                  </div>
                               </div>
                            </div>
                            <div class="col-md-12">
                               <div class="form-row">
                                  <div class="form-group col-md-12">
-                                    <input type="password" class="form-control" placeholder="Confirm Pasword" required>
+                                    <input type="password" class="form-control" name="password_confirmation" placeholder="Confirm Pasword" required>
                                  </div>
                               </div>
                            </div>
@@ -125,7 +149,7 @@
                   </div>
                </div>
             </div>
-         </div>
+         </div> --}}
          <!-- modal end -->
          <div class="SHtaken-header-navigation bg-color">
             <div class="container">
