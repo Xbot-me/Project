@@ -155,7 +155,7 @@
             <div class="container">
                <div class="d-flex justify-content-between SHtaken">
                   <div class="SHtaken-logo">
-                     <a class="SHtaken-brand" href="index.html">Logo here</a>
+                     <a class="SHtaken-brand" href="{{'/'}}"><img src="images/logo.png" alt="logo here" ></a>
                   </div>
                   <nav class="SHtaken-menu">
                      <ul id="navigation-menu" class="slimmenu">

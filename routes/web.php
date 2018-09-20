@@ -19,7 +19,7 @@ Route::get('/instructors','CoursesController@instructor');
 Auth::routes();
 
 
-Route::get('/profile', 'HomeController@index')->name('home');
+Route::get('/profile', 'CoursesController@instructor');
 
 
 Route::group(['prefix' => 'dashboard'], function () {

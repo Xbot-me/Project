@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\Input;
 
 class RegisterController extends Controller
 {
@@ -28,7 +29,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -50,7 +51,8 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
-            
+            'role' => 'required',
+           # 'avatar' => 'required',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
         ]);
@@ -64,11 +66,41 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        /* $request = request();
+
+        $profileImage = $request->file('profile_picture');
+        $profileImageSaveAsName = time() . \Auth::id() . "-profile." . 
+                                  $profileImage->getClientOriginalExtension();
+
+        $upload_path = 'profile_images/';
+        $profile_image_url = $upload_path . $profileImageSaveAsName;
+        $success = $profileImage->move($upload_path, $profileImageSaveAsName); */
+        #dd($profileImageSaveAsName);
+        /* $file = request()->file('profile_picture');
+        #dd($file);
+        
+        $ext = $file->extension();
+
+      $avater =  $file->storeAs('profile_images', \Auth::id() ."profile.{$ext}"); */
+      $fileName = 'null';
+      if (Input::file('profile_picture')->isValid()) {
+          $destinationPath = public_path('uploads/files');
+          $extension = Input::file('profile_picture')->getClientOriginalExtension();
+          $fileName = uniqid().'.'.$extension;
+  
+          Input::file('profile_picture')->move($destinationPath, $fileName);
+      }
+     
+
         return User::create([
+            'avatar' => $fileName,
             'name' => $data['name'],
-            
+            'role_id' => $data['role'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]);
+            
+        ]); 
+
+         
     }
 }

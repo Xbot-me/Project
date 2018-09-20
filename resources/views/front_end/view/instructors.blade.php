@@ -9,13 +9,19 @@
        <div class="row">
           <div class="col">
              <div class="SHtaken-wells-container">
-                <h2>Instructor Details</h2>
-                <nav>
-                   <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item active">Instructor details</li>
-                   </ol>
-                </nav>
+                    @if(Auth::user()->role_id == 2 ) 
+                    
+                    <h2>Instructor Details</h2>
+
+
+
+                    @elseif(Auth::user()->role_id == 3 )
+
+                    <h2>Student Details</h2>
+
+                    @endif
+                
+               
              </div>
           </div>
        </div>
@@ -23,14 +29,15 @@
  </section>
  <!-- End SHtaken Slider -->
  <!-- Start SHtaken Feature-->
- <div class="SHtaken-feature instructors-details-img bg-color">
+ <div class="SHtaken-feature  bg-color">
     <div class="container">
        <div class="row">
           <div class="col-md-4">
+              <img src=" {{ "uploads/files/".Auth::user()->avatar }}" alt="">
           </div>
           <div class="col-md-8">
              <div class="instructors-details  section-spacing">
-                <h2>Hi i am <a href="author.html">Mox Comix</a></h2>
+                <h2>Hi i am {{ Auth::user()->name }} </h2>
                 <h6>UI/UX Designer</h6>
                 <p>Hachabitasse platea dictumst. Pellentesque a urna nisi. Mauris ac euismod ipsum. Aenean faucibus sapien odio, ut condimentum dolor imperdiet id. Nam tristique dolor non ex faucibus consequat. Sed maximus sapien purus, eget pellentesque
                    quam dapibus eget. Praesent sodales mauris a sapien vehicula, ac sodales odio volutpat. Etiam tristique orci odio, a bibendum odio convallis id. Morbi quis tempor velit. Nullam suscipit pellentesque quam, id maximus nulla iaculis

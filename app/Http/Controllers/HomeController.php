@@ -37,4 +37,16 @@ class HomeController extends Controller
 
         return view('front_end.view.contact');
     }
+    public function profile()
+    {
+
+        return view('home');
+       
+    }
+    public function update(Request $request)
+    {
+        $path = $request->file('avatar')->store('avatars');
+
+        return $path;
+    }
 }

@@ -282,6 +282,14 @@ iframe {
 	padding-top: 28px;
 	padding-bottom: 28px;
 }
+.SHtaken-brand img{
+	width: 5vw;
+    transform: translateY(-1vh);
+}
+.SHtaken-footer-logo img{
+	width: 10vw;
+}
+
 #navigation-menu{
 	position:relative;
 }

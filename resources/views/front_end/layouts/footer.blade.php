@@ -5,7 +5,7 @@
                <div class="row">
                   <div class="col-lg-5 col-md-6">
                      <div class="SHtaken-footer-widget wow fadeIn"  data-wow-duration="2s">
-                        <div class="SHtaken-footer-logo"><a href="index.html">Footer logo here</a></div>
+                     <div class="SHtaken-footer-logo text-center"><a href="{{'/'}}}"><img src="images/logo.png" alt="logo here" ></a></div>
                         <p>Diam ligula, vitae in. Eros cursus class dui. auctor bibendum magnis nulla massa. Molest condimentum mauris ligula tortor</p>
                         <ul class="SHtaken-footer-social list-inline">
                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
