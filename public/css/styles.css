@@ -286,6 +286,9 @@ iframe {
 	width: 5vw;
     transform: translateY(-1vh);
 }
+.contact-info-content p{
+	color: #EF5F5F !important;
+}
 .SHtaken-footer-logo img{
 	width: 10vw;
 }

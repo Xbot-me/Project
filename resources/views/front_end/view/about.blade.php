@@ -47,7 +47,7 @@
                      <div class="services-wrapper wow fadeIn"  data-wow-duration="2s">
                         <div class="services-logo"><img src="images/video-logo3.png" alt="services img" /></div>
                         <div class="services-details">
-                           <h5>Multi Purpose Dashboard</h5>
+                           <h5>Easy Communication System</h5>
                            <p>Online Education</p>
                         </div>
                      </div>

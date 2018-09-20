@@ -33,12 +33,20 @@
     <div class="container">
        <div class="row">
           <div class="col-md-4">
-              <img src=" {{ "uploads/files/".Auth::user()->avatar }}" alt="">
+              <img src=" {{ "uploads/files/".Auth::user()->avatar }}" alt="Profile image">
           </div>
           <div class="col-md-8">
              <div class="instructors-details  section-spacing">
-                <h2>Hi i am {{ Auth::user()->name }} </h2>
-                <h6>UI/UX Designer</h6>
+                 @php
+                    $user_name = Auth::user()->name;
+                    $uper_name =strtoupper($user_name);
+                 @endphp
+                <h2>Hi I am {{ $uper_name  }} </h2>
+                @if( Auth::user()->role_id === 2)
+                <h6>Instructor</h6>
+                @elseif(Auth::user()->role_id === 3)
+                <h6>Student</h6>
+                @endif
                 <p>Hachabitasse platea dictumst. Pellentesque a urna nisi. Mauris ac euismod ipsum. Aenean faucibus sapien odio, ut condimentum dolor imperdiet id. Nam tristique dolor non ex faucibus consequat. Sed maximus sapien purus, eget pellentesque
                    quam dapibus eget. Praesent sodales mauris a sapien vehicula, ac sodales odio volutpat. Etiam tristique orci odio, a bibendum odio convallis id. Morbi quis tempor velit. Nullam suscipit pellentesque quam, id maximus nulla iaculis
                    commodo. In id fermentum sem. Phasellus non hendrerit metus. Etiam ultrices ipsum ut ipsum condimentum tristique.

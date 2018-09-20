@@ -30,7 +30,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h4>Office Address</h4>
-                            <p>1-13 St Giles High St,<br>London WC2H 8AG, UK</p>
+                            <p>DIU Library 3rd Floor<br>Dhanmondi 32 Road , Dhaka, Bangladesh </p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h4>Email Address</h4>
-                            <p>companyinfo@gmail.com<br>info@gmail.com</p>
+                            <p>thahia15-4804@diu.edu.bd<br>tahia15-4824@diu.edu.bd <br> naeem15-4823@diu.edu.bd</p>
                         </div>
                     </div>
                 </div>
@@ -84,19 +84,19 @@
                     <div class="contact-resgister-info-wrapper wow fadeIn"  data-wow-duration="2s">
                         <div class="contact-resgister-info-logo"><img src="images/contact-info-logo.png" alt="" /></div>
                         <div class="contact-resgister-info-content">
-                            <p> 321/A, 15 Road Dhanmondi <br> </p>
+                            <p>  <br> </p>
                         </div>
                     </div>
                     <div class="contact-resgister-info-wrapper wow fadeIn"  data-wow-duration="2s">
                         <div class="contact-resgister-info-logo"><img src="images/contact-info-logo2.png" alt="" /></div>
                         <div class="contact-resgister-info-content">
-                            <p>+880 1795769509 <br> +880 1895769509</p>
+                            <p>+880  <br> +880 </p>
                         </div>
                     </div>
                     <div class="contact-resgister-info-wrapper wow fadeIn"  data-wow-duration="2s">
                         <div class="contact-resgister-info-logo"><img src="images/contact-info-logo3.png" alt="" /></div>
                         <div class="contact-resgister-info-content">
-                            <p>support@gmail.com <br> demo@gmail.com</p>
+                            <p> <br> </p>
                         </div>
                     </div>
                 </div>

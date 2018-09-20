@@ -14,7 +14,7 @@
                            <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
                         </ul>
                         <h5>Call Us</h5>
-                        <h6>+8801795769509</h6>
+                        <h6>+8801929213824</h6>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-6">
@@ -41,6 +41,7 @@
                         </ul>
                      </div>
                   </div> -->
+                  
                   <div class="col-lg-3 col-md-8 wow fadeIn"  data-wow-duration="2s">
                      <div class="SHtaken-footer-widget m-0">
                         <h4>Contact Form</h4>
@@ -63,8 +64,8 @@
          </div>
          <div class="SHtaken-footer-intro text-center">
             <div class="container">
-<p>&copy; Copyright - 2018 SHtaken - Designed by
-  <a href="https://crud.madcoderz.com/">Madcoderz</a>
+<p>&copy; Copyright - 2018  Designed by
+  <a href="#">Unified Group</a>
 </p>
             </div>
          </div>
