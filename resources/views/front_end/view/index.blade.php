@@ -54,7 +54,7 @@
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
-                              <h5>Business Development</h5>
+                              <h5>Operating system</h5>
                            </a>
                            <div class="SHtaken-rating-area">
                               <ul class="popular-course-review list-inline">
@@ -93,7 +93,7 @@
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
-                              <h5>Digital Marketing Strategy </h5>
+                              <h5>Object Oriented Programming  </h5>
                            </a>
                            <div class="SHtaken-rating-area">
                               <ul class="popular-course-review list-inline">
@@ -132,7 +132,7 @@
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
-                              <h5>Website Development</h5>
+                              <h5>Artificial Itelligence</h5>
                            </a>
                            <div class="SHtaken-rating-area">
                               <ul class="popular-course-review list-inline">
@@ -375,6 +375,54 @@
                         </ul>
                         <a href="author.html">
                            <h5>Mr. Arif Mahmud</h5>
+                        </a>
+                        <p>Department of Computer Science and Engineering</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="testimonial-instructor wow fadeIn"  data-wow-duration="2s">
+                  <div class="testimonial-info">
+                     <div class="testimonial-info-thumb"><img src="images/teacher5.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-content">
+                        <a href="author.html">
+                           <h5>Rezwana Sultana</h5>
+                        </a>
+                        <p>Assistant Professor</p>
+                     </div>
+                  </div>
+                  <div class="testimonial-hover">
+                     <div class="testimonial-hover-wrap">
+                        <ul class="testimonial-hover-social list-inline">
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <a href="author.html">
+                           <h5>Rezwana Sultana</h5>
+                        </a>
+                        <p>Department of Computer Science and Engineering</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="testimonial-instructor wow fadeIn"  data-wow-duration="2s">
+                  <div class="testimonial-info">
+                     <div class="testimonial-info-thumb"><img src="images/teacher6.jpg" alt="testimonial author img" /></div>
+                     <div class="testimonial-info-content">
+                        <a href="author.html">
+                           <h5>Shah Md Tanvir Siddique</h5>
+                        </a>
+                        <p>Assistant Professor</p>
+                     </div>
+                  </div>
+                  <div class="testimonial-hover">
+                     <div class="testimonial-hover-wrap">
+                        <ul class="testimonial-hover-social list-inline">
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <a href="author.html">
+                           <h5>Shah Md Tanvir Siddique</h5>
                         </a>
                         <p>Department of Computer Science and Engineering</p>
                      </div>
