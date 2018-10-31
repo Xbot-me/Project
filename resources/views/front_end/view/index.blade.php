@@ -47,10 +47,10 @@
                   <div class="col-md-4">
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="2s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course.jpg);">
-                           <div class="popular-course-teacher popular-color1">
+                           {{-- <div class="popular-course-teacher popular-color1">
                               <a href="{{"/course_info"}}">Jhon Doe</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
-                           </div>
+                           </div> --}}
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
@@ -86,10 +86,10 @@
                   <div class="col-md-4">
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="3s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course2.jpg);">
-                           <div class="popular-course-teacher popular-color2">
+                          {{--  <div class="popular-course-teacher popular-color2">
                               <a href="{{"/course_info"}}">jon rock</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
-                           </div>
+                           </div> --}}
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
@@ -125,10 +125,10 @@
                   <div class="col-md-4">
                      <div class="popular-course-post wow fadeIn"  data-wow-duration="1s">
                         <div class="popular-course-thumb" style="background-image:url(images/popular-course3.jpg);">
-                           <div class="popular-course-teacher popular-color3">
+                           {{-- <div class="popular-course-teacher popular-color3">
                               <a href="{{"/course_info"}}">jon rock</a>
                               <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
-                           </div>
+                           </div> --}}
                         </div>
                         <div class="popular-course-content ">
                            <a href="{{"/course_info"}}">
@@ -259,7 +259,7 @@
 
 
       <!-- Start SHtaken Resgister -->
-      <section class="SHtaken-resgister bg-color4">
+    {{--   <section class="SHtaken-resgister bg-color4">
          <div class="SHtaken-resgister-wrapper section-spacing">
             <div class="container">
                <div class="row">
@@ -288,7 +288,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> --}}
       <!-- End SHtaken Resgister -->  
 
 
@@ -492,7 +492,7 @@
 
 
       <!-- Start SHtaken About Author -->
-      <section class="SHtaken-about-author section-spacing section-overlay clearfix">
+     {{--  <section class="SHtaken-about-author section-spacing section-overlay clearfix">
          <div class="container">
             <div class="row">
                <div class="col-md-8 m-auto">
@@ -507,24 +507,24 @@
                <div class="about-author-info">
                   <div class="about-author-thumb"><img src="images/about-author.png" alt="testimonial author img" /></div>
                   <div class="about-author-content">
-                     <a href="author.html">Oscar Javier</a>
+                     <a href="author.html">Professor Claire Bradin Siskin </a>
                      <span>Company of Nation</span>
-                     <p>I had a couple of months of experience trading without consistent results. After taking this course I'm pretty confident that I'll be a better trader and know better when to enter a trade, how to put my stop loss and take profit, how many lots to trade and much more.</p>
+                     <p>What I will remember about Daffodil International University is the tremendous spirit of students, faculty, and staff. People are constantly coming up with new ideas, programs, and activities. There is a keen interest in what is happening beyond the borders of Bangladesh, for which DIU truly deserves the “International” in its name. The staff – in particular the IT staff – is willing to give assistance. DIU provides a supportive atmosphere for learning and teaching.</p>
                      <img src="images/about-author-sign.png" alt="about-author img" />
                   </div>
                </div>
                <div class="about-author-info">
                   <div class="about-author-thumb"><img src="images/about-author2.png" alt="testimonial author img" /></div>
                   <div class="about-author-content">
-                     <a href="author.html">Estelle</a>
+                     <a href="author.html">Takayoshi Suzuki</a>
                      <span>Company of Nation</span>
-                     <p>My first complete Photoshop for Designing t-shirts course done! I am not a designer at all, but after taking this course I really felt like a professional with enough confidence to now go out and design for the real world. Learned SO much! thank you!</p>
+                     <p>I am deeply impressed by the serious look of the students during the lecture, and the politeness that everyone stands up when I was introduced at the class at DIU. Role of DIU is praiseworthy for promoting the study of power generation in the country for the future. Bangladeshi children with a lovely smile, as long as they are exposed to heart aching environment, I always face towards Bangladesh through Daffodil.</p>
                      <img src="images/about-author-sign2.png" alt="about-author img" />
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </section> --}}
       <!-- End SHtaken Testimonial -->     
       
       

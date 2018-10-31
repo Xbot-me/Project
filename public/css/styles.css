@@ -144,7 +144,7 @@ iframe {
 .SHtaken-blockquote p{
 	font-size:18px;
 	font-style:italic;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .section-spacing{
 	padding:100px  0px;
@@ -168,7 +168,7 @@ iframe {
 	background-color:#FFFFFF;
 }
 .bg-color2{
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 }
 .bg-color3{
 	background-color:#292726;
@@ -193,8 +193,8 @@ iframe {
 }
 
 .SHtaken-btn{
-	background-color: #EF5F5F;
-    border: 1px solid #EF5F5F;
+	background-color: #8cd1bc ;
+    border: 1px solid #8cd1bc ;
     border-radius: 0;
     padding: 10px 30px;
     font-size: 16px;
@@ -209,7 +209,7 @@ iframe {
 .SHtaken-btn:active{
 	background-color: #ffffff!important;
     border: 1px solid #ffffff!important;
-    color:#EF5F5F!important;
+    color:#8cd1bc !important;
 }
 .SHtaken-btn2{
     background-color: transparent;
@@ -225,8 +225,8 @@ iframe {
 .SHtaken-btn2:hover,
 .SHtaken-btn2:focus,
 .SHtaken-btn2:active{
-    background-color: #EF5F5F!important;
-    border: 1px solid #EF5F5F!important;
+    background-color: #8cd1bc !important;
+    border: 1px solid #8cd1bc !important;
     color: #ffffff!important;
 }
 .section-overlay{
@@ -287,7 +287,7 @@ iframe {
     transform: translateY(-1vh);
 }
 .contact-info-content p{
-	color: #EF5F5F !important;
+	color: #8cd1bc  !important;
 }
 .SHtaken-footer-logo img{
 	width: 10vw;
@@ -339,10 +339,10 @@ iframe {
 	font-weight:400;
 }
  #navigation-menu li a:hover{
-color:#EF5F5F
+color:#8cd1bc 
 }
 #navigation-menu li.has-submenu li a:hover{
-background:#EF5F5F;
+background:#8cd1bc ;
 color:#fff
 }
 .SHtaken-header-navigation .collapse-button{
@@ -374,7 +374,7 @@ color:#fff
     border-radius: 0;
 }
 .top-login-modal .modal-header {
-    background: #EF5F5F;
+    background: #8cd1bc ;
 	 border-radius: 0;
 }
 h5#tmx-loginform, .top-login-modal .modal-header, .top-login-modal .modal-header span {
@@ -386,13 +386,13 @@ h5#tmx-loginform, .top-login-modal .modal-header, .top-login-modal .modal-header
 }
 .top-login-modal .login-btn {
     border: none;
-    background: #ef5f5f;
+    background: #8cd1bc ;
     color: #fff;
     padding: 10px 20px;
     border-radius: 0;
 }
 .top-login-modal p.message a {
-    color: #ef5f5f;
+    color: #8cd1bc ;
 }
 /*
 ################################
@@ -420,7 +420,7 @@ h5#tmx-loginform, .top-login-modal .modal-header, .top-login-modal .modal-header
 	margin-bottom:30px;
 }
 .SHtaken-slider-content h1 span{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 
 
@@ -465,14 +465,14 @@ h5#tmx-loginform, .top-login-modal .modal-header, .top-login-modal .modal-header
     color: #ffffff;
 }
 .SHtaken-wells-container .breadcrumb .active a{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-wells-container .breadcrumb-item+.breadcrumb-item::before{
 	color:#ffffff;
 	font-size:20px;
 }
 .breadcrumb-item.active {
-    color: #ef5f5f;
+    color: #8cd1bc ;
 }
 section.SHtaken-banner-wells.inner-spacing.section-overlay {
     padding:100px 0;
@@ -492,7 +492,7 @@ section.SHtaken-banner-wells.inner-spacing.section-overlay {
 	margin:0;
     font-size:16px;
 	text-transform:uppercase;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-section-title h2{
 	font-size:36px;
@@ -500,12 +500,12 @@ section.SHtaken-banner-wells.inner-spacing.section-overlay {
 	margin-bottom:15px;
 }
 .SHtaken-section-title span{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-section-title .section-border{
 	width:80px;
 	height:2px;
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 	margin:auto;
 	position:relative;
 	margin-bottom:30px;
@@ -589,7 +589,7 @@ section.SHtaken-banner-wells.inner-spacing.section-overlay {
 }
 .SHtaken-video-thumb i.fa.fa-play {
     color: white;
-    background: #ef5f5f;
+    background: #8cd1bc ;
     padding: 10px;
     font-size: 36px;
     width: 70px;
@@ -675,7 +675,7 @@ section.SHtaken-banner-wells.inner-spacing.section-overlay {
 	 text-align:center;
 }
 .upcoming-event-logo h2 {
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     font-size: 38px;
     margin-bottom: 0;
     color: #ffffff;
@@ -718,8 +718,8 @@ ul.upcoming-event-meta.list-inline i {
 	margin-bottom:2px;
 }
 .upcoming-event-content .upcoming-event-btn {
-    background-color: #EF5F5F;
-    border: 2px solid #EF5F5F;
+    background-color: #8cd1bc ;
+    border: 2px solid #8cd1bc ;
     border-radius: 0;
     padding: 3px 15px;
     text-transform: capitalize;
@@ -755,7 +755,7 @@ ul.upcoming-event-meta.list-inline i {
     margin-bottom: 20px;
 }
 .start-event-title h2 span{
-    color:#EF5F5F;
+    color:#8cd1bc ;
 }
 .start-event-title p{
     margin-bottom:30px;
@@ -772,7 +772,7 @@ ul.upcoming-event-meta.list-inline i {
 	content:"\f00c";
 	font-family:"FontAwesome";
 	font-size:15px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 	position:absolute;
 	left:0;
 	top:0;
@@ -782,7 +782,7 @@ ul.upcoming-event-meta.list-inline i {
 }
 .start-event-counter li{
 	font-size:36px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 	font-weight:600;
 	margin-right:20px !important;
 }
@@ -809,7 +809,7 @@ ul.upcoming-event-meta.list-inline i {
 }
 .upcoming-event-clock-wrapper h4 {
     font-size: 26px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
     margin-bottom: 15px;
 	text-transform:uppercase;
 	text-align:center;
@@ -837,7 +837,7 @@ ul.upcoming-event-meta.list-inline i {
 	margin-bottom:10px;
 }
 .upcoming-event-calendar h6 span{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .upcoming-event-calendar-list li{
 	margin-bottom:10px;
@@ -850,7 +850,7 @@ ul.upcoming-event-meta.list-inline i {
 	color:#09A025;
 }
 .zabuto_calendar .table  tr.calendar-month-header td{
-	background-color:#EF5F5F !important;
+	background-color:#8cd1bc  !important;
 }
 .zabuto_calendar .table tr.calendar-month-header td span{
 	text-transform: uppercase;
@@ -929,16 +929,16 @@ ul.upcoming-event-meta.list-inline i {
 .SHtaken-blog-post .SHtaken-blog-meta  a:hover,
 .SHtaken-blog-post .SHtaken-blog-meta  a:focus,
 .SHtaken-blog-post .SHtaken-blog-meta  a:active{
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 .SHtaken-blog-post .SHtaken-blog-meta  i {
     margin-right:6px;
-	color: #EF5F5F;
+	color: #8cd1bc ;
 }
 .SHtaken-blog-btn{
 	font-size:15px;
 	background-color:transparent;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 	border:0;
 	padding-left:0;
 }
@@ -955,7 +955,7 @@ ul.upcoming-event-meta.list-inline i {
     margin-bottom: 15px;
 }
 .SHtaken-blog-list a.SHtaken-blog-btn {
-    background: #ef5f5f;
+    background: #8cd1bc ;
     color: #fff;
     padding: 10px 15px;
     text-align: center;
@@ -992,7 +992,7 @@ ul.upcoming-event-meta.list-inline i {
     font-weight: 400;
 	font-size:15px;
     border-radius: 0px;
-    background: #EF5F5F;
+    background: #8cd1bc ;
     color: #ffffff;
     z-index: 1;
     color: #ffffff;
@@ -1040,7 +1040,7 @@ ul.upcoming-event-meta.list-inline i {
 }
 .not-found-container a{
 	font-size:30px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .instructors-details-img {
     background-image: url(/images/instructors-author-img.png);
@@ -1054,7 +1054,7 @@ ul.upcoming-event-meta.list-inline i {
 }
 .instructors-details h2 a{
 	font-size:56px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .instructors-details h6{
 	font-size:18px;
@@ -1071,7 +1071,7 @@ ul.upcoming-event-meta.list-inline i {
 	margin-right:40px !important;
 }
 .instructors-details-review > li:last-child h4{
-    color:#EF5F5F;
+    color:#8cd1bc ;
 }
 .instructors-details-review h4{
 	font-size:36px;
@@ -1104,11 +1104,11 @@ ul.upcoming-event-meta.list-inline i {
     font-size: 16px;
     text-align: center;
     padding-top: 6px;
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 .instructors-details-social  a:hover {
-    background-color: #EF5F5F;
-    border-color: #EF5F5F;
+    background-color: #8cd1bc ;
+    border-color: #8cd1bc ;
     color: #ffffff;
 }
 #gallery-filter{
@@ -1126,10 +1126,10 @@ ul.upcoming-event-meta.list-inline i {
 }
 #gallery-filter .button:hover,
 #gallery-filter .button:focus{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 #gallery-filter .is-checked{
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 	color:#ffffff;
 }
 #gallery-filter .is-checked:focus,
@@ -1259,7 +1259,7 @@ ul.upcoming-event-meta.list-inline i {
     font-size: 16px;
 }
 .forum-table .forum-rate{
-    color: #EF5F5F;
+    color: #8cd1bc ;
 	font-size:16px;
 }
 /*
@@ -1281,7 +1281,7 @@ ul.upcoming-event-meta.list-inline i {
 	text-align:center;
 }
 .course-info:first-child{
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 }
 .course-info .course-logo{
 	margin-bottom:10px;
@@ -1302,7 +1302,7 @@ ul.upcoming-event-meta.list-inline i {
     font-weight: 400;
     font-size: 15px;
     border-radius: 0px;
-    background: #EF5F5F;
+    background: #8cd1bc ;
     color: #ffffff;
     z-index: 1;
     padding: 10px 30px;
@@ -1316,7 +1316,7 @@ ul.upcoming-event-meta.list-inline i {
 	background-color:#FFBB44;
 }
 .popular-color3{
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 }
 .popular-course-post{
 	margin-bottom:30px;
@@ -1447,7 +1447,7 @@ ul.popular-course-student {
     float: right;
 }
 a.popular-course-enroll {
-    background: #ef5f5f;
+    background: #8cd1bc ;
     color: #fff;
     display: inline-block;
     padding: 5px 15px;
@@ -1499,7 +1499,7 @@ a.popular-course-enroll:hover {
 .SHtaken-course-grid ul li a:hover,
 .SHtaken-course-grid ul li a:focus,
 .SHtaken-course-grid ul li a.active{
-	color:#EF5F5F;	
+	color:#8cd1bc ;	
 }
 .popular-course-post2{
 	margin-bottom:25px;
@@ -1568,7 +1568,7 @@ a.popular-course-enroll:hover {
     margin-right: 25px !important;
 }
 .popular-course-post2 .popular-course-student li i{
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 .SHtaken-pagination .pagination{
 	display:block;
@@ -1586,8 +1586,8 @@ a.popular-course-enroll:hover {
 .SHtaken-pagination .pagination li a:focus,
 .SHtaken-pagination .pagination li a:hover{
 	color:#ffffff;
-    background-color:#EF5F5F;
-    border: 1px solid #EF5F5F;
+    background-color:#8cd1bc ;
+    border: 1px solid #8cd1bc ;
 }
 .SHtaken-pagination .pagination li:first-child a,
 .SHtaken-pagination .pagination li:last-child a {
@@ -1665,7 +1665,7 @@ a.popular-course-enroll:hover {
     border-style: solid;
     position: absolute;
     top: 0;
-	border-color: #EF5F5F;
+	border-color: #8cd1bc ;
 }
 .SHtaken-progress .progress-left .progress-bar{
     left: 100%;
@@ -1736,7 +1736,7 @@ a.popular-course-enroll:hover {
     padding: 10px 20px;
 }
 #SHtaken-lesson-accordion .card-header button {
-    color: #ef5f5f;
+    color: #8cd1bc ;
 }
 #SHtaken-lesson-accordion .card-header button.collapsed {
     color: #262626;
@@ -1798,7 +1798,7 @@ div#SHtaken-lesson-accordion .card-body {
 	text-align:center;
 }
 .resgister-form .resgister-form-text {
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     padding: 25px;
     position: relative;
     margin-bottom: 40px;
@@ -1821,7 +1821,7 @@ div#SHtaken-lesson-accordion .card-body {
     left: 0;
     right: 0;
     bottom: -10px;
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     position: absolute;
     -webkit-transform: skew(0deg,-2deg);
         -ms-transform: skew(0deg,-2deg);
@@ -1854,7 +1854,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .resgister-form button[type="submit"]:hover,
 .resgister-form button[type="submit"]:focus{
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
 	
 }
 .SHtaken-resgister-wrapper {
@@ -1949,7 +1949,7 @@ div#SHtaken-lesson-accordion .card-body {
     font-size: 18px;
     margin-bottom: 5px;
     font-weight: 600;
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 .testimonial-info .testimonial-info-content p{
 	color:#777777;
@@ -1961,7 +1961,7 @@ div#SHtaken-lesson-accordion .card-body {
     left: 0;
     bottom: 86px;
     right: 0;
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     z-index: 2;
 	opacity:0;
 	visibility:hidden;
@@ -1997,7 +1997,7 @@ div#SHtaken-lesson-accordion .card-body {
 .testimonial-hover-social a:hover,
 .testimonial-hover-social a:focus {
     background-color:#ffffff;
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 .testimonial-hover-wrap h5 {
 	margin-bottom:4px;
@@ -2041,7 +2041,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .testimonial-instructor-carousel .owl-next:hover,
 .testimonial-instructor-carousel .owl-prev:hover {
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
 }
 .testimonial-instructor-carousel .owl-prev {
     margin-right:10px;
@@ -2100,7 +2100,7 @@ div#SHtaken-lesson-accordion .card-body {
 	background-color:#2BCC70;
 }
 .pannel-three{
-	background-color:#EF5F5F;
+	background-color:#8cd1bc ;
 }
 .pannel-column .pannel-logo{
 	margin-bottom:30px;
@@ -2187,7 +2187,7 @@ div#SHtaken-lesson-accordion .card-body {
     top: 0;
     bottom: 0;
     right: -250px;
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     -webkit-transform: skew(-20deg,0deg);
         -ms-transform: skew(-20deg,0deg);
             transform: skew(-20deg,0deg);
@@ -2254,7 +2254,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .SHtaken-single-list i{
 	margin-right:10px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 #SHtaken-accordion{
 	padding:0 25px;
@@ -2285,7 +2285,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 #SHtaken-accordion .card-body li a:hover,
 #SHtaken-accordion .card-body li a:focus{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 #SHtaken-accordion  .card-header{
     background-color: transparent;
@@ -2378,7 +2378,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 
 .SHtaken-single-page .SHtaken-single-tags li a{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-single-page .SHtaken-single-tags li a:after{
 	content:",";
@@ -2460,7 +2460,7 @@ div#SHtaken-lesson-accordion .card-body {
 	position: absolute;
     top: 15px;
     right: 15px;
-    color: #EF5F5F;
+    color: #8cd1bc ;
     font-size: 14px;
     background-color: #EEECEC;
     padding: 0px 10px;
@@ -2471,7 +2471,7 @@ div#SHtaken-lesson-accordion .card-body {
 	padding-left:60px;
 }
 .SHtaken-single a:hover {
-    color: #EF5F5F;
+    color: #8cd1bc ;
 }
 
 /*
@@ -2503,7 +2503,7 @@ div#SHtaken-lesson-accordion .card-body {
     font-weight: 400;
     font-size: 15px;
     border-radius: 0px;
-    background: #EF5F5F;
+    background: #8cd1bc ;
     color: #ffffff;
     z-index: 1;
     padding: 10px 30px;
@@ -2524,7 +2524,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .sidebar-category li a:hover,
 .sidebar-category li a:focus{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 
 .sidebar-course #course-slider .carousel-control-prev-icon{
@@ -2539,7 +2539,7 @@ div#SHtaken-lesson-accordion .card-body {
 	border-bottom:1px solid #E5E5E5;
 	margin:0;
 	font-size:16px;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 	font-weight:400;
 	padding:20px;
 }
@@ -2590,11 +2590,11 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .sidebar-course .sidebar-course-enroll{
 	text-transform:uppercase;
-	color:#EF5F5F;
+	color:#8cd1bc ;
 	display:block;
 }
 .sidebar-course .sidebar-course-enroll:hover{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .recent-container {
 	width:100%;
@@ -2633,7 +2633,7 @@ div#SHtaken-lesson-accordion .card-body {
     position: relative;
 }
 .recent-container .recent-content .recent-meta li a {
-    color: #EF5F5F;
+    color: #8cd1bc ;
     font-size: 14px;
 }
 .sidebar-course  img{
@@ -2656,9 +2656,9 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .sidebar-tags .btn-tags:hover,
 .sidebar-tags .btn-tags:focus{
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
 	color:#ffffff;
-	border-color:#EF5F5F;
+	border-color:#8cd1bc ;
 }
 
 /*
@@ -2704,7 +2704,7 @@ div#SHtaken-lesson-accordion .card-body {
     margin-bottom:20px;
 }
 .contact-form button[type="submit"]{
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     border: 0;
     border-radius: 0;
     padding: 10px 30px;
@@ -2789,7 +2789,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 .contact-resgister-form button[type="submit"] {
     padding: 15px 30px;
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     border: 1px solid;
     border-radius: 0;
     border-color: transparent;
@@ -2835,7 +2835,7 @@ div#SHtaken-lesson-accordion .card-body {
 
 .SHtaken-payment-accordion-hd:hover,
 .SHtaken-accordion-trigger:checked + label {
-  color: #ef5f5f;
+  color: #8cd1bc ;
 
 }
 
@@ -2849,7 +2849,7 @@ div#SHtaken-lesson-accordion .card-body {
 }
 
 .SHtaken-accordion-trigger:checked + label > i {
-    color: #ef5f5f;
+    color: #8cd1bc ;
     transform: rotate(90deg);
 }
 
@@ -2907,7 +2907,7 @@ ul.cart-list {
 	color:rgba(255, 255, 255, 0.90);
 }
 .SHtaken-footer-widget h6{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-footer-logo a{
 	display:block;
@@ -2948,8 +2948,8 @@ ul.SHtaken-footer-category.list-inline li {
     color: #9e9e9e;
 }
 .SHtaken-footer-social a:hover {
-    background-color: #EF5F5F;
-    border-color: #EF5F5F;
+    background-color: #8cd1bc ;
+    border-color: #8cd1bc ;
     color: #ffffff;
 }
 
@@ -2977,7 +2977,7 @@ ul.SHtaken-footer-category.list-inline li {
 .SHtaken-footer-single li a:hover,
 .SHtaken-footer-single li a:focus,
 .SHtaken-footer-single li a:active{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 
 
@@ -2995,7 +2995,7 @@ ul.SHtaken-footer-category.list-inline li {
 .SHtaken-footer-category li a:hover,
 .SHtaken-footer-category li a:focus,
 .SHtaken-footer-category li a:active{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 .SHtaken-footer-form .form-group {
     margin-bottom: 15px;
@@ -3016,7 +3016,7 @@ ul.SHtaken-footer-category.list-inline li {
 .SHtaken-footer-form button[type="submit"] {
     width: 100%;
     padding: 12px 30px;
-    background-color: #EF5F5F;
+    background-color: #8cd1bc ;
     border: 1px solid;
     border-radius: 0;
     border-color: transparent;
@@ -3042,7 +3042,7 @@ ul.SHtaken-footer-category.list-inline li {
 	color:#ffffff;
 }
 .SHtaken-footer-intro a{
-	color:#EF5F5F;
+	color:#8cd1bc ;
 }
 a:hover {
 

@@ -1,6 +1,6 @@
  <!-- Start SHtaken Footer -->
  <footer class="SHtaken-footer bg-color5">
-         <div class="SHtaken-footer-container section-spacing">
+        {{--  <div class="SHtaken-footer-container section-spacing">
             <div class="container">
                <div class="row">
                   <div class="col-lg-5 col-md-6">
@@ -17,7 +17,7 @@
                         <h6>+8801929213824</h6>
                      </div>
                   </div>
-                  <div class="col-lg-2 col-md-6">
+                  {{-- <div class="col-lg-2 col-md-6">
                      <div class="SHtaken-footer-widget wow fadeIn"  data-wow-duration="2s">
                         <h4>Quick Link</h4>
                         <ul class="SHtaken-footer-single list-inline">
@@ -28,7 +28,7 @@
                            <li class="list-inline-item"><a href="#">services & Help</a></li>
                         </ul>
                      </div>
-                  </div>
+                  </div> --}}
                  <!--  <div class="col-lg-2 col-md-6">
                      <div class="SHtaken-footer-widget wow fadeIn"  data-wow-duration="2s">
                         <h4>About Us</h4>
@@ -42,7 +42,7 @@
                      </div>
                   </div> -->
                   
-                  <div class="col-lg-3 col-md-8 wow fadeIn"  data-wow-duration="2s">
+                  {{-- <div class="col-lg-3 col-md-8 wow fadeIn"  data-wow-duration="2s">
                      <div class="SHtaken-footer-widget m-0">
                         <h4>Contact Form</h4>
                         <form class="SHtaken-footer-form" action="#" method="#">
@@ -58,10 +58,12 @@
                            <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Send</button>
                         </form>
                      </div>
-                  </div>
+                  </div> 
                </div>
             </div>
-         </div>
+         </div> --}}
+
+
          <div class="SHtaken-footer-intro text-center">
             <div class="container">
 <p>&copy; Copyright - 2018  Designed by

@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header text-center" style="
-                background-color: #ef5f5f; color: #fff;
+                background-color: #8cd1bc ; color: #fff;
                 ">{{ __('Login') }}</div>
 
                 <div class="card-body">
@@ -53,7 +53,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary" style="background-color:#ef5f5f; border-color: #ef5f5f;">
+                                <button type="submit" class="btn btn-primary" style="background-color:#8cd1bc ; border-color: #8cd1bc ;">
                                     {{ __('Login') }}
                                 </button>
 
@@ -68,4 +68,9 @@
         </div>
     </div>
 </div>
+<br />
+<br />
+<br />
+<br />
+<br />
 @endsection
