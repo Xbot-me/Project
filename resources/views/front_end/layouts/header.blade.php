@@ -17,7 +17,9 @@
                           </a>
 
                           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="/profile">Profile</a>
+                              <a class="dropdown-item" href="/profile/{{ Auth::user()->id }}">Profile</a>
+                              <hr>
+                              <a class="dropdown-item" href="/message/{{ Auth::user()->id }}">Messages</a>
                               <hr>
                               <a class="dropdown-item" href="{{ route('logout') }}"
                                  onclick="event.preventDefault();
@@ -155,7 +157,7 @@
             <div class="container">
                <div class="d-flex justify-content-between SHtaken">
                   <div class="SHtaken-logo">
-                     <a class="SHtaken-brand" href="{{'/'}}"><img src="images/logo.png" alt="logo here" ></a>
+                     <a class="SHtaken-brand" href="{{'/'}}"><img src="/images/logo.png" alt="logo here" ></a>
                   </div>
                   <nav class="SHtaken-menu">
                      <ul id="navigation-menu" class="slimmenu">

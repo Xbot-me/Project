@@ -1,5 +1,5 @@
  <!-- Start SHtaken Footer -->
- <footer class="SHtaken-footer bg-color5">
+ <footer class="SHtaken-footer bg-color5 footer">
         {{--  <div class="SHtaken-footer-container section-spacing">
             <div class="container">
                <div class="row">

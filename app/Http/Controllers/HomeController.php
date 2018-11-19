@@ -21,22 +21,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('front_end.view.index');
-    }
-    public function about()
-    {
-
-
-        return view('front_end.view.about');
-    }
-    public function contact()
-    {
-
-
-        return view('front_end.view.contact');
-    }
+   
+    
+   
     public function profile()
     {
 

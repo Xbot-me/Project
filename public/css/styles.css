@@ -81,6 +81,35 @@ select {
 .border-none{
 	border:0 !important
 }
+.form{
+	position: relative;
+}
+.ms-input{
+	position: fixed;
+    width: 54%;
+
+    height: 44px;
+}
+.btn-right{
+	
+	position: fixed;
+right: 9%;
+
+height: 44px;
+}
+.wraper{
+	
+}
+.popular-course-enroll{
+	background: #8cd1bc;
+color: #fff;
+display: inline-block;
+padding: 5px 15px;
+font-size: 15px;
+text-transform: capitalize;
+border: 0;
+}
+
 ::-webkit-input-placeholder {
   color: #777777 !important;
   font-size: 15px;

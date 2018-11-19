@@ -24,254 +24,211 @@
 <!-- End SHtaken Slider -->
 <!-- Start SHtaken Course Info -->
 <section class="SHtaken-course-info">
-    <div class="container">
+<div class="container">
         <div class="course-info-wrapper d-flex align-items-stretch SHtaken">
-            <div class="course-info SHtaken wow fadeIn"  data-wow-duration="2s">
-                <div class="course-logo"><img src="images/course-info-instructor.png" alt="course info img" /></div>
+            <div class="course-info SHtaken wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                <div class="course-logo"><img src="/images/course-info-instructor.png" alt="course info img"></div>
                 <div class="course-meta-content light-text">
                                     <p>Instructor</p>
                 <a href="course-grid-autor-right-sidebar.html">
-                    <h5>JONI MAX</h5>
+                <h5>{{$data2->name}}</h5>
                 </a>
+                
                 </div>
+            <a href="/message/{{$data->tech_id}}"> Message</a>
 
             </div>
-            <div class="course-info SHtaken wow fadeIn"  data-wow-duration="2s">
-                <div class="course-logo"><img src="images/course-info-logo.png" alt="course info img" /></div>
+            <div class="course-info SHtaken wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                <div class="course-logo"><img src="/images/course-info-logo.png" alt="course info img"></div>
 <div class="course-meta-content">                   
                <p>Duration</p>
                 <h5>18 Class - 36 Houre </h5>
             </div>
             </div>
-            <div class="course-info SHtaken wow fadeIn"  data-wow-duration="2s">
-                <div class="course-logo"><img src="images/course-info-logo2.png" alt="course info img" /></div>
+            <div class="course-info SHtaken wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                <div class="course-logo"><img src="/images/course-info-logo2.png" alt="course info img"></div>
 <div class="course-meta-content">                   
                <p>Student</p>
                 <h5>21589</h5>
             </div>
             </div>
-            <div class="course-info SHtaken wow fadeIn"  data-wow-duration="2s">
-                <div class="course-logo"><img src="images/course-info-logo3.png" alt="course info img" /></div>
+            <div class="course-info SHtaken wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                <div class="course-logo"><img src="/images/course-info-logo3.png" alt="course info img"></div>
 <div class="course-meta-content">                  
               <p>Course Fee</p>
                 <h5>$ 456</h5>
             </div>
             </div>
             <div class="course-info SHtaken">
-                <a href="checkout.html" class="course-info-btn">Enroll Now</a>
+                    <a class="popular-course-enroll" href="/enroll/{{$data->id}}">enroll now</a>
             </div>
         </div>
     </div>
 </section>
-<!-- End SHtaken  Course Info-->
-<!-- Start SHtaken  Single-->
-<section class="SHtaken-Single section-spacing bg-color">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-7">
-                <div class="SHtaken-single">
-                    <div class="SHtaken-single-thumb"><img src="images/courses-details-img.jpg" alt="courses details img" /></div>
-                    <p>Nam at volutpat, duis delectus, sed ullamcorper pulvinar sed. Quis amet, eget erat ut proident faucibus maecenas, suspendisse sed in aptent. Congue mauris pharetra ea tellus ut, diam consequat pede vitae mauris, volutpat maecenas
-                        eget venenatis feugiat magna, laoreet sit sit erat non volutpat, ut a pellentesque mollis lectus placerat. Platea id porttitor mauris posuere sed. Commodo massa ornare mi, ligula nullam pulvinar nec elit.</p>
-                    <h5>Requirement</h5>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="SHtaken-single-list list-inline">
-                                <li><i class="fa fa-bookmark"></i> Platea id porttitor mauris posuere.</li>
-                                <li><i class="fa fa-bookmark"></i> Platea id porttitor mauris posuere.</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="SHtaken-single-list list-inline">
-                                <li><i class="fa fa-bookmark"></i> Platea id porttitor mauris posuere.</li>
-                                <li><i class="fa fa-bookmark"></i> Platea id porttitor mauris posuere.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p>mauris, volutpat maecenas eget venenatis feugiat magna, laoreet sit sit erat non volutpat, ut a pellentesque mollis lectus placerat. Platea id porttitor mauris posuere sed. Commodo massa ornare mi, ligula nullam pulvinar nec elit.</p>
-                    <h5>Lesson</h5>
-                    <div id="SHtaken-lesson-accordion">
-                        <div class="SHtaken-card wow fadeIn"  data-wow-duration="2s">
-                            <div class="card-header" id="headingOne">
-                              <button class="" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
-                              Lesson A
-                            </button>
-                            </div>
 
-                            <div id="collapseOne" class="collapse show" data-parent="#SHtaken-accordion">
-                                <div class="card-body">
-                                 <p>Nam at volutpat, duis delectus, sed ullamcorper pulvinar sed. Quis amet, eget erat ut proident faucibus maecenas, suspendisse sed in aptent. Congue mauris pharetra ea tellus ut, diam consequat pede vitae mauris, volutpat maecenas eget venenatis feugiat magna, laoreet sit sit erat non volutpat, ut a pellentesque mollis lectus placerat. Platea id porttitor mauris posuere sed. Commodo massa ornare mi, ligula nullam pulvinar nec elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="SHtaken-card wow fadeIn"  data-wow-duration="2s">
-                            <div class="card-header" id="headingTwo">
-                                <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
-                              Lesson B
-                            </button>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#SHtaken-accordion">
-                                <div class="card-body">
-                                <ul>
-                                    <li><a href="#">Basic Media Planning Lesson.</a></li>
-                                    <li><a href="#">Our Eduzone Info Design : Part 03</a></li>
-                                    <li><a href="#">Basic Video Class Of Eduzone.</a></li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="SHtaken-card wow fadeIn"  data-wow-duration="2s">
-                            <div class="card-header" id="headingThree">
-                                <button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree">
-                              Lesson C
-                            </button>
-                            </div>
-                            <div id="collapseThree" class="collapse" data-parent="#SHtaken-accordion">
-                                <div class="card-body">
-                                <ul>
-                                    <li><a href="#">Basic Media Planning Lesson.</a></li>
-                                    <li><a href="#">Our Eduzone Info Design : Part 03</a></li>
-                                    <li><a href="#">Basic Video Class Of Eduzone.</a></li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h5>Review</h5>
-                    <div class="SHtaken-review wow fadeIn"  data-wow-duration="2s">
-                        <div class="SHtaken-review-circle">
-                            <div class="SHtaken-progress">
-                                <span class="progress-left">
-                                    <span class="progress-bar"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar"></span>
-                                </span>
-                                <div class="progress-value">4.8</div>
-                            </div>
-                            <h5>Avarage rating</h5>
-                            <ul class="popular-course-review list-inline">
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                        <div class="SHtaken-review-progress">
-                            <div class="SHtaken-prograss">
-                                <div class="progress-label">5 Star</div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
-                                </div>
-                            </div>
-                            <div class="SHtaken-prograss">
-                                <div class="progress-label">3 Star</div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 65%;">65%</div>
-                                </div>
-                            </div>
-                            <div class="SHtaken-prograss">
-                                <div class="progress-label">4 Star</div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
-                                </div>
-                            </div>
-                            <div class="SHtaken-prograss">
-                                <div class="progress-label">1 Star</div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 20%;">20%</div>
-                                </div>
-                            </div>
-                            <div class="SHtaken-prograss">
-                                <div class="progress-label">2 Star</div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 35%;">35%</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-5">
-                <div class="SHtaken-sidebar-left">
-                    <form class="sidebar-search sidebar-widget" action="#">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search course">
-                            <span class="input-group-btn">
-                             <button class="btn btn-secondary" type="submit"><i class="fa fa-search"></i></button>
-                             </span>
-                        </div>
-                    </form>
-                    <h4 class="sidebar-title">Categories</h4>
-                    <ul class="sidebar-category sidebar-widget list-group">
-                        <li class="list-group-item d-flex justify-content-between">
-                            <a href="single.html">WordPress</a>
-                            <span class="badge"><i class="fa fa-folder-open"></i></span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            <a href="single.html">Joomla</a>
-                            <span class="badge"><i class="fa fa-folder-open"></i></span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            <a href="single.html">Durpal</a>
-                            <span class="badge"><i class="fa fa-folder-open"></i></span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            <a href="single.html">PHPBB</a>
-                            <span class="badge"><i class="fa fa-folder-open"></i></span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            <a href="single.html">Redux</a>
-                            <span class="badge"><i class="fa fa-folder-open"></i></span>
-                        </li>
-                    </ul> 
-                    
-                    <div class="sidebar-widget">
-                        <h4 class="sidebar-title">Featured Course</h4>
-                        <div class="popular-course-post wow fadeIn"  data-wow-duration="3s">
-                            <div class="popular-course-thumb" style="background-image:url(images/popular-course.jpg);">
-                               <div class="popular-course-teacher popular-color2">
-                                  <a href="course-grid.html">jon rock</a>
-                                  <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
-                               </div>
-                            </div>
-                        <div class="popular-course-content ">
-                           <a href="course-grid.html">
-                              <h5>Digital Marketing Strategy </h5>
-                           </a>
-                           <div class="SHtaken-rating-area">
-                              <ul class="popular-course-review list-inline">
-                                 <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                 <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                 <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                 <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                 <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                              </ul>
-                              <ul class="popular-course-student list-inline">
-                                 <li class="list-inline-item">
-                                    <i class="fa fa-user"></i> 230
-                                 </li>
-                                 <li class="list-inline-item">
-                                    <i class="fa fa-comments"></i> 05
-                                 </li>
-                              </ul>
-                           </div>
-                           <p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
-                           <div class="popular-course-meta">
-                              <div class="SHtaken-course-action">
-                                 <a class="popular-course-price popular-color1" href="course-details.html">free</a>
-                                 <a class="popular-course-enroll" href="course-details.html">enroll now</a>
-                              </div>
-                           </div>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-        </div>
+<section class="SHtaken-course-info">
+    <div class="container">
+      <div class="row">
+<div class="col-lg-8 col-md-7">
+<div class="SHtaken-single">
+        <?php 
+              
+        $str = $data->image;
+            $url = str_replace('\\','/' , $str);
+            $temp = $data->body;
+            $body = str_replace(array('<p>','</p>'),' ',$temp);
+            function video_url($video){
+               
+            $xf=explode(',',$video);
+            $xf[1]='';
+            $xv=implode(' ',$xf);
+            $xc=explode(':',$xv);
+            $xc[0]="";
+            $xa=implode(' ',$xc);
+            $xc=explode('\\',$xa);
+            unset($xc[1]);
+            unset($xc[3]);
+
+
+            return trim(str_replace('"','',implode('/',$xc)));
+            }
+
+            $xd=$data->lesson_1;
+            $xc=$data->lesson_2;
+            $xa=$data->lesson_3;
+
+            $xt=video_url($xd);
+            $xy=video_url($xc);
+            $xz=video_url($xa);
+            
+
+            
+            
+
+        
+        
+        ?>
+<div class="SHtaken-single-thumb"><img src="/storage/{{$url}}" alt="courses details img" /></div>
+<p>{{$body}}</p>
+
+<h5>Lesson</h5>
+<div id="SHtaken-lesson-accordion">
+<div class="SHtaken-card wow fadeIn" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;" data-wow-duration="2s">
+<div id="headingOne" class="card-header"><button class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne" aria-expanded="false"> Lesson A </button></div>
+<div id="collapseOne" class="collapse" data-parent="#SHtaken-accordion">
+<div class="card-body">
+        <video width="690" height="400" controls>
+                <source src="/storage/{{$xt}}" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video> 
+</div>
+</div>
+</div>
+<div class="SHtaken-card wow fadeIn" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;" data-wow-duration="2s">
+<div id="headingTwo" class="card-header"><button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo" aria-expanded="false"> Lesson B </button></div>
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#SHtaken-accordion">
+<div class="card-body">
+        <video width="690" height="400" controls>
+                <source src="/storage/{{$xy}}" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video>
+</div>
+</div>
+</div>
+<div class="SHtaken-card wow fadeIn" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;" data-wow-duration="2s">
+<div id="headingThree" class="card-header"><button class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree" aria-expanded="false"> Lesson C </button></div>
+<div id="collapseThree" class="collapse" data-parent="#SHtaken-accordion">
+<div class="card-body">
+        <video width="690" height="400" controls>
+                <source src="/storage/{{$xz}}" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video>
+</div>
+</div>
+</div>
+</div>
+<h5>Review</h5>
+<div class="SHtaken-review wow fadeIn" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;" data-wow-duration="2s">
+<div class="SHtaken-review-circle">
+<div class="SHtaken-progress">
+<div class="progress-value">4.8</div>
+</div>
+<h5>Avarage rating</h5>
+</div>
+<div class="SHtaken-review-progress">
+<div class="SHtaken-prograss">
+<div class="progress-label">5 Star</div>
+<div class="progress">
+<div class="progress-bar" style="width: 85%;" role="progressbar">85%</div>
+</div>
+</div>
+<div class="SHtaken-prograss">
+<div class="progress-label">3 Star</div>
+<div class="progress">
+<div class="progress-bar" style="width: 65%;" role="progressbar">65%</div>
+</div>
+</div>
+<div class="SHtaken-prograss">
+<div class="progress-label">4 Star</div>
+<div class="progress">
+<div class="progress-bar" style="width: 70%;" role="progressbar">70%</div>
+</div>
+</div>
+<div class="SHtaken-prograss">
+<div class="progress-label">1 Star</div>
+<div class="progress">
+<div class="progress-bar" style="width: 20%;" role="progressbar">20%</div>
+</div>
+</div>
+<div class="SHtaken-prograss">
+<div class="progress-label">2 Star</div>
+<div class="progress">
+<div class="progress-bar" style="width: 35%;" role="progressbar">35%</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-5">
+<div class="SHtaken-sidebar-left"><form class="sidebar-search sidebar-widget" action="#">
+<div class="input-group"><input type="text" class="form-control" placeholder="Search course" /> <button class="btn btn-secondary" type="submit"></button></div>
+</form>
+<h4 class="sidebar-title">Categories</h4>
+<ul class="sidebar-category sidebar-widget list-group">
+<li class="list-group-item d-flex justify-content-between"><a href="single.html">WordPress</a></li>
+<li class="list-group-item d-flex justify-content-between"><a href="single.html">Joomla</a></li>
+<li class="list-group-item d-flex justify-content-between"><a href="single.html">Durpal</a></li>
+<li class="list-group-item d-flex justify-content-between"><a href="single.html">PHPBB</a></li>
+<li class="list-group-item d-flex justify-content-between"><a href="single.html">Redux</a></li>
+</ul>
+<div class="sidebar-widget">
+<h4 class="sidebar-title">Featured Course</h4>
+<div class="popular-course-post wow fadeIn" style="visibility: visible; animation-duration: 3s; animation-name: fadeIn;" data-wow-duration="3s">
+<div class="popular-course-thumb" style="background-image: url('images/popular-course.jpg');">
+<div class="popular-course-teacher popular-color2"><a href="course-grid.html">jon rock</a> <img src="images/popular-course-teacher.png" alt="popular course teacher img" /></div>
+</div>
+<div class="popular-course-content ">
+<h5>Digital Marketing Strategy</h5>
+<div class="SHtaken-rating-area">
+<ul class="popular-course-student list-inline">
+<li class="list-inline-item">230</li>
+<li class="list-inline-item">05</li>
+</ul>
+</div>
+<p>Vitae habitasse senectus mattis elit semperrhoncus est etiam.</p>
+<div class="popular-course-meta">
+<div class="SHtaken-course-action"><a class="popular-course-price popular-color1" href="course-details.html">free</a> <a class="popular-course-enroll" href="course-details.html">enroll now</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
     </div>
 </section>
 <!-- End SHtaken Single -->
