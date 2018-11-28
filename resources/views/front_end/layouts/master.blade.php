@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="description" content="SHtaken is A Responsive HTML5 template for Blog site etc website." />
       <meta name="author" content="SHtaken" />
-      <title> SHtaken - Learning Template</title>
+      <title>Online Learning Platform!!</title>
       <!--  Add Favicon Icon-->
       <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
       <link rel="icon" href="/images/favicon.png" type="image/x-icon">

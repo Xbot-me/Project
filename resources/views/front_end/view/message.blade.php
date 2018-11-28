@@ -5,8 +5,8 @@
     <div class="container">
       <div class="row">  
     @php
-      if(Auth::user()->role_id == 1 && 2){
-          $TO = 'Students' ;
+      if(Auth::user()->role_id ==  2){
+          $TO = 'Enrolled Students' ;
       }else{
           $TO = 'Teachers';
       }   
@@ -16,20 +16,24 @@
             <div class="card-header">{{$TO}}</div>
             
                     <div class="card-body">
-                        <ul>
-                            <li><a href="">Student 1</a></li>
+                        <ul class='list-users'>
+                    @if(Auth::user()->role_id == 2)
+                        @foreach ($temp as $student)
+       
+       
+                            <li><a href="/message/{{$student->id}}">{{$student->name}}</a></li>
                             <hr>
-                             <li><a href="">Student 2</a></li>
-                             <hr>
-                            <li><a href="">Student 1</a></li>
-                            <hr>
-                             <li><a href="">Student 2</a></li>
-                             <hr>
-                            <li><a href="">Student 1</a></li>
+                             
                             
                             
                              
-                              
+                            @endforeach   
+                    @else
+                    @foreach ($temp1 as $teacher)
+                        <li><a href="/message/{{$teacher->id}}">{{$teacher->name}}</a></li>
+                        <hr>
+                    @endforeach 
+                    @endif
                         </ul>
                     </div>
                     
@@ -43,7 +47,7 @@
               <div id="div" style="height:300px; overflow-y:scroll;" class="form-control  ">
 
                     <div class="container">
-                            <p class="sender">{{Auth::user()->name}}</p>
+                            <p class="name">{{Auth::user()->name}}</p>
                             <p class="messages" id="messages"></p>
                             
                           </div>
@@ -80,7 +84,14 @@
                 var messages = data.msg.reverse(); 
                 
                 var el = $.map(messages,function(val,i){
-                   return "<p>"+val.message+"</p>"
+                    console.log(val);
+
+                    if(val.receiver == id){
+                        return "<p class='receiver'>"+val.message+"</p>"
+                    }else{
+                        return "<p class='sender'>"+val.message+"</p>"
+                    }
+                  // return "<p class='mes'>"+val.message+"</p><span class='name'>"+val.sender+"</span>"
                }); 
                 /* var ii = data.msg[0].sender;  */
                 

@@ -78,7 +78,13 @@
                               <form  method="POST" action="/enroll">
                                 @csrf
                                 <input type="hidden" name="cid" value="{{ $course->id }}">
+
+                                @if (!empty($data2) && Auth::user()->role_id ===3)
+                                <button class="popular-course-enroll" type="">enrolled</button>
+                                
+                                @else
                                 <button class="popular-course-enroll" type="submit">enroll now</button>
+                                @endif
                             </form>
                               
 

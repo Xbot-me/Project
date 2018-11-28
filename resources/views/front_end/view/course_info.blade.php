@@ -29,7 +29,10 @@
             <div class="course-info SHtaken wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
                 <div class="course-logo"><img src="/images/course-info-instructor.png" alt="course info img"></div>
                 <div class="course-meta-content light-text">
+                                  
                                     <p>Instructor</p>
+                                   
+                                   
                 <a href="course-grid-autor-right-sidebar.html">
                 <h5>{{$data2->name}}</h5>
                 </a>
@@ -197,14 +200,34 @@
 <div class="SHtaken-sidebar-left"><form class="sidebar-search sidebar-widget" action="#">
 <div class="input-group"><input type="text" class="form-control" placeholder="Search course" /> <button class="btn btn-secondary" type="submit"></button></div>
 </form>
-<h4 class="sidebar-title">Categories</h4>
+
+@if (Auth::user()->role_id == 2)
+<div class="sidebar-widget">
+<h4 class="sidebar-title">Students</h4>
+@foreach ($data3 as $st)
+
 <ul class="sidebar-category sidebar-widget list-group">
-<li class="list-group-item d-flex justify-content-between"><a href="single.html">WordPress</a></li>
-<li class="list-group-item d-flex justify-content-between"><a href="single.html">Joomla</a></li>
-<li class="list-group-item d-flex justify-content-between"><a href="single.html">Durpal</a></li>
-<li class="list-group-item d-flex justify-content-between"><a href="single.html">PHPBB</a></li>
-<li class="list-group-item d-flex justify-content-between"><a href="single.html">Redux</a></li>
-</ul>
+<li class="list-group-item d-flex justify-content-between"><a href="/message/{{$st->id}}">{{$st->name}}</a></li>
+    
+    
+    </ul>
+@endforeach
+</div>
+
+
+
+@endif
+    
+   
+
+ 
+
+
+
+
+
+
+
 <div class="sidebar-widget">
 <h4 class="sidebar-title">Featured Course</h4>
 <div class="popular-course-post wow fadeIn" style="visibility: visible; animation-duration: 3s; animation-name: fadeIn;" data-wow-duration="3s">

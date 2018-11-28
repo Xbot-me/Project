@@ -3,7 +3,7 @@
             <div class="container">
                <div class="d-flex justify-content-between SHtaken">
                   <div class="SHtaken-top-bar-left">
-                     <p class="top-content"><a href="mailto:support@SHtaken.com">support@SHtaken.com</a></p>
+                     <p class="top-content"><a href="mailto:support@SHtaken.com">unified.support@gmail.com</a></p>
                   </div>
                   <div class="SHtaken-top-bar-right">
 

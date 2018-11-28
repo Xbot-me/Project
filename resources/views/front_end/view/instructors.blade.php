@@ -84,77 +84,148 @@
  <section class="SHtaken-Course section-spacing bg-color">
      
     <div class="container">
-            @if(Auth::user()->role_id == 2 ) 
+@if(Auth::user()->role_id == 2 ) 
                     
                     <h2>Courses:-</h2>
+                    <div class="row">
+        
+        @foreach ($data as $course)
 
+        <?php 
+        
+        $str = $course->image;
+            $url = str_replace('\\','/' , $str);
 
+        $temp = $course->short_des;
+          //$des = strlen($temp);
+         $des=substr($temp,0,100).'...';
+            
+        
+        ?>
+           
+      
+        <div class="col-md-4">
+            <div class="popular-course-post wow fadeIn"  data-wow-duration="1s">
+               <div class="popular-course-thumb" style="background-image:url(/storage/{{$url}});">
+                  <div class="popular-course-teacher popular-color2">
+                  <a href="{{"/course_info/".$course->id}}">{{$course->name}}</a>
+                     <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
+                  </div>
+               </div>
+               <div class="popular-course-content ">
+                  <a href="{{"/course_info/".$course->id}}">
+                     <h5>{{$course->title}} </h5>
+                  </a>
+                  <div class="SHtaken-rating-area">
+                     <ul class="popular-course-review list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                     </ul>
+                     {{-- <ul class="popular-course-student list-inline">
+                        <li class="list-inline-item">
+                           <i class="fa fa-user"></i> 230
+                        </li>
+                        <li class="list-inline-item">
+                           <i class="fa fa-comments"></i> 05
+                        </li>
+                     </ul> --}}
+                  </div>
+                <p>{{$des}}</p>
+                  <div class="popular-course-meta">
+                     <div class="SHtaken-course-action">
+                        <a class="popular-course-price popular-color1" href="course-details.html">free</a>
+                     <a class="popular-course-enroll" href="/enroll/{{$course->id}}">enroll now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        @endforeach
+           
+        
+      </div>
 
-                    @elseif(Auth::user()->role_id == 3 )
+@elseif(Auth::user()->role_id == 3 )
 
                     <h2>Enrolled Courses:-</h2>
+                    <div class="row">
+                       
+              
 
-                    @endif
-       <div class="row">
-        
-         @foreach ($data as $course)
+              <?php 
+           // $courses =  json_decode( json_encode($course), true);
+              $str = $course->image;
+                  $url = str_replace('\\','/' , $str);
 
-         <?php 
-         
-         $str = $course->image;
-             $url = str_replace('\\','/' , $str);
-
-         $temp = $course->short_des;
-           //$des = strlen($temp);
-          $des=substr($temp,0,100).'...';
-             
-         
-         ?>
+              $temp = $course->short_des;
+                $des = strlen($temp);
+              $des=substr($temp,0,100).'...';
+                  
+              
+              ?>
+                 
             
-       
-         <div class="col-md-4">
-             <div class="popular-course-post wow fadeIn"  data-wow-duration="1s">
-                <div class="popular-course-thumb" style="background-image:url(/storage/{{$url}});">
-                   <div class="popular-course-teacher popular-color2">
-                   <a href="{{"/course_info/".$course->id}}">{{$course->name}}</a>
-                      <img src="images/popular-course-teacher.png" alt="popular course teacher img" />
-                   </div>
-                </div>
-                <div class="popular-course-content ">
-                   <a href="{{"/course_info/".$course->id}}">
-                      <h5>{{$course->title}} </h5>
-                   </a>
-                   <div class="SHtaken-rating-area">
-                      <ul class="popular-course-review list-inline">
-                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                         <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                      </ul>
-                      {{-- <ul class="popular-course-student list-inline">
-                         <li class="list-inline-item">
-                            <i class="fa fa-user"></i> 230
-                         </li>
-                         <li class="list-inline-item">
-                            <i class="fa fa-comments"></i> 05
-                         </li>
-                      </ul> --}}
-                   </div>
-                 <p>{{$des}}</p>
-                   <div class="popular-course-meta">
-                      <div class="SHtaken-course-action">
-                         <a class="popular-course-price popular-color1" href="course-details.html">free</a>
-                      <a class="popular-course-enroll" href="/enroll/{{$course->id}}">enroll now</a>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-         @endforeach
+              <div class="col-md-4">
+                  <div class="popular-course-post wow fadeIn"  data-wow-duration="1s">
+                     <div class="popular-course-thumb" style="background-image:url(/storage/{{$url}});">
+                        <div class="popular-course-teacher popular-color2">
+                        <a href="{{"/course_info/".$course->id}}">{{$course->name}}</a>
+                           <img src="/images/popular-course-teacher.png" alt="popular course teacher img" />
+                        </div>
+                     </div>
+                     <div class="popular-course-content ">
+                        <a href="{{"/course_info/".$course->id}}">
+                           <h5>{{$course->title}} </h5>
+                        </a>
+                        <div class="SHtaken-rating-area">
+                           <ul class="popular-course-review list-inline">
+                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                           </ul>
+                           {{-- <ul class="popular-course-student list-inline">
+                              <li class="list-inline-item">
+                                 <i class="fa fa-user"></i> 230
+                              </li>
+                              <li class="list-inline-item">
+                                 <i class="fa fa-comments"></i> 05
+                              </li>
+                           </ul> --}}
+                        </div>
+                      <p>{{$des}}</p>
+                        <div class="popular-course-meta">
+                           <div class="SHtaken-course-action">
+                              <a class="popular-course-price popular-color1" href="course-details.html">free</a>
+
+                             
+                              <form  method="POST" action="/enroll">
+                                @csrf
+                                <input type="hidden" name="cid" value="{{ $course->id }}">
+
+                                
+                                <button class="popular-course-enroll" type="">enrolled</button>
+                                
+                            
+                                
+                            </form>
+                              
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             
-         
-       </div>
+                 
+              
+            </div>
+@endif
+      
        
     </div>
  </section>

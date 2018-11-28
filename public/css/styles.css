@@ -97,8 +97,46 @@ right: 9%;
 
 height: 44px;
 }
-.wraper{
+.receiver{
+	position: relative; 
 	
+	border-radius: .4em;
+	padding: 30px 20px;
+	background-color: #059824;
+	color: #000;
+
+}
+.receiver::after{
+	content: ''; position: absolute; left: 0; top: 50%; width: 0; height: 0; border: 20px solid transparent; border-right-color: #059824; border-left: 0; border-bottom: 0; margin-top: -10px; margin-left: -20px;
+}
+.list-users li{
+	list-style-type: none;
+
+}
+.list-users li a:hover{
+	color: #8cd1bc;
+}
+.sender{
+	position: relative; 
+	background: #00aabb; 
+	border-radius: .4em;
+	padding: 30px 20px;
+	
+}
+.sender::after{
+	content: '';
+	position: absolute; 
+	bottom: 0; 
+	left: 100%; 
+	top:50%;
+	width: 0; 
+	height: 0;
+	border: 20px solid transparent;
+ 	border-top-color: #00aabb;
+	border-bottom: 0; 
+	border-left: 0; 
+	margin-left: -10px;
+	margin-bottom: -20px;
 }
 .popular-course-enroll{
 	background: #8cd1bc;
